@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors | RevoFun</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">RevoFun</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="games">
+    <h2>Rock Paper Scissors</h2>
+    <p>Click one of the icons below to play.</p>
+
+    <div class="game-card">
+      <div class="rps-buttons">
+        <img src="asset/rock.png" alt="Rock" data-choice="rock" />
+        <img src="asset/paper.png" alt="Paper" data-choice="paper" />
+        <img src="asset/scissor.png" alt="Scissors" data-choice="scissors" />
+      </div>
+
+      <p id="result"></p>
+
+      <p>Your Score: <span id="playerScore">0</span></p>
+      <p>Computer Score: <span id="computerScore">0</span></p>
+
+      <button class="btn-secondary" id="resetBtn">Reset Game</button>
+    </div>
+
+    <br />
+    <a href="index.html" class="btn-secondary">← Back to Home</a>
+  </main>
+
+  <script src="javascript/rpsgames.js"></script>
+</body>
+</html>
+

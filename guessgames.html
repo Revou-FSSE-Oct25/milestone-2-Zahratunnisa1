@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Guessing | RevoFun</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">RevoFun</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="games">
+    <h2>Number Guessing Game</h2>
+    <p>Guess a number between <strong>1 and 100</strong>. You have <strong>5 attempts</strong>.</p>
+
+    <div class="game-card">
+      <input type="number" id="guessInput" placeholder="Enter your guess" />
+      <button class="btn-primary" id="guessBtn">Guess</button>
+
+      <p id="message"></p>
+      <p>Attempts left: <span id="attempts">5</span></p>
+
+      <button class="btn-secondary" id="restartBtn">Restart Game</button>
+    </div>
+
+    <br />
+    <a href="index.html" class="btn-secondary">← Back to Home</a>
+  </main>
+
+  <script src="javascript/guessgames.js"></script>
+</body>
+</html>
