@@ -5,9 +5,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.game-icon {
+  width: 50px;   /* atur sesuai kebutuhan */
+  height: auto;  /* biar proporsi tidak rusak */
+}
+
 body {
-  background-color: #0f172a;
-  color: #e5e7eb;
+  background: linear-gradient(45deg,#ffd1dc,#fe9ba3);
+  color: white;
   line-height: 1.6;
 }
 
@@ -17,21 +22,30 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #020617;
+  background: linear-gradient(45deg,#ffb6c1, #ff69b4);
 }
 
 .logo {
-  color: #38bdf8;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar a {
   color: #e5e7eb;
   margin-left: 1rem;
   text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 12px 20px;
+  border-radius: 12px;
+  transition: 
+    background 0.3s ease,
+    transform 0.2s ease;
 }
 
 .navbar a:hover {
-  color: #38bdf8;
+  background: #ffb6c1;
+  color: white;
+  transform: translateY(-3px);
 }
 
 /* Hero */
@@ -43,20 +57,23 @@ body {
 .hero h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hero p {
   margin-bottom: 2rem;
-  color: #cbd5f5;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn-primary {
-  background-color: #38bdf8;
-  color: #020617;
+  background-color: pink;
+  color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Games */
@@ -76,7 +93,7 @@ body {
 }
 
 .game-card {
-  background-color: #020617;
+  background-color: #ff85ac;
   padding: 1.5rem;
   border-radius: 8px;
   text-align: center;
@@ -84,7 +101,8 @@ body {
 
 .game-card h3 {
   margin-bottom: 0.5rem;
-  color: #38bdf8;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .game-card p {
@@ -94,23 +112,23 @@ body {
 
 .btn-secondary {
   background-color: transparent;
-  border: 1px solid #38bdf8;
-  color: #38bdf8;
+  border: 1px solid white;
+  color: pink;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .btn-secondary:hover {
-  background-color: #38bdf8;
-  color: #020617;
+  background-color: pink;
+  color: white;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #020617;
+  background: linear-gradient(45deg,#ffb6c1, #ff69b4);
   margin-top: 2rem;
   font-size: 0.8rem;
 }
